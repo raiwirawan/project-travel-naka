@@ -1,0 +1,35 @@
+navbar.navbar {
+	height: 100%;
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar a {
+	color: white;
+}
+
+.menus {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.navbar-component {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 33.33%;
+}
+
+.menu {
+	margin: 0 20px;
+}
+
+navbar .button {
+	width: 80px;
+	height: 35px;
+}

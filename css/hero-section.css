@@ -1,0 +1,38 @@
+section.hero-section {
+	background-image: url("/assets/images/hero/hero-section-image.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-text-container {
+	color: #ffffff;
+	text-align: center;
+}
+
+.explore-now {
+	width: 120px;
+	height: 40px;
+}
+
+.hero-subtitle {
+	letter-spacing: var(--half-small-size);
+	font-size: var(--subtitle-size);
+}
+
+.hero-title {
+	letter-spacing: var(--medium-size);
+	font-size: var(--title-size);
+}
+
+.hero-button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
