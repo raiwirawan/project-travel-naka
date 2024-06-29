@@ -1,61 +1,59 @@
-.destination-head {
+.aboutus-head {
 	text-align: center;
 }
 
-.destination-title {
+.aboutus-title {
 	font-size: 96px;
 	color: #00000012;
 }
 
-.destination-subtitle {
+.aboutus-subtitle {
 	font-size: var(--big-size);
 	color: blue;
 	margin-top: -80px;
 }
 
-.destinations {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.destination {
+.testimony {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-direction: column;
 	/* margin-top: 50px; */
-	height: 550px;
-	width: 30%;
+	height: 420px;
+	width: 700px;
 }
 
-.destination-image {
+.testimonies {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.testimony-image {
 	object-fit: cover;
 	object-position: center;
-	width: 100%;
-	height: auto;
-	border-radius: 20px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
 	box-shadow: 5px 5px 9px #aaaaaa, -5px -5px 9px #ffffff;
 }
 
-.destination-card-title {
+.testimony-card-title {
 	font-size: var(--medium-size);
 	/* margin-top: 20px; */
 	margin-bottom: 10px;
 }
 
-.destination-text {
+.testimony-text {
 	text-align: center;
 }
 
-.destination-head {
+.testimony-head {
 	margin-bottom: 50px;
 }
 
-.lear-more {
-	width: 120px;
-	height: 40px;
-	font-weight: 800;
+.testimony-desc {
+	line-height: 24px;
+	font-weight: 300;
 }

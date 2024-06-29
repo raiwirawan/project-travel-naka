@@ -1,0 +1,53 @@
+.book-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+}
+
+.book-section-left,
+.book-section-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45%;
+}
+
+.book-section-left {
+	width: 35%;
+}
+
+.book-section-right {
+	width: 50%;
+}
+
+.book-section-text-head h2 {
+	font-size: 71px;
+}
+
+.book-section-text-head h2.first-line {
+	letter-spacing: 2px;
+}
+
+.book-section-text-head h2.second-line {
+	letter-spacing: 1px;
+}
+
+.book-section-text-head h2.third-line {
+	letter-spacing: 24px;
+}
+
+.book-section-text-desc {
+	line-height: 26px;
+	font-weight: 300;
+}
+
+.book-now {
+	width: 120px;
+	height: 40px;
+}
+
+.book-section-button-container {
+	margin-top: 10px;
+}

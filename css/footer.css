@@ -1,0 +1,35 @@
+.footer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	justify-content: center;
+}
+
+.footer-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.footer-company-detail,
+.footer-help,
+.footer-social-media {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 25%;
+	height: 500px;
+}
+
+.footer-header h3 {
+	font-size: var(--medium-size);
+}
+
+.footer-header,
+.footer-body div {
+	margin-bottom: 20px;
+}
