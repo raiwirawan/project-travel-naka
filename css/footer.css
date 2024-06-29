@@ -22,7 +22,7 @@
 	justify-content: flex-start;
 	flex-direction: column;
 	width: 25%;
-	height: 500px;
+	height: 300px;
 }
 
 .footer-header h3 {
@@ -32,4 +32,17 @@
 .footer-header,
 .footer-body div {
 	margin-bottom: 20px;
+}
+
+.footer-body .icon {
+	margin-right: 10px;
+}
+
+.footer-body .icon img {
+	width: 24px;
+	height: 24px;
+}
+
+.footer-body a {
+	color: #ffffff;
 }

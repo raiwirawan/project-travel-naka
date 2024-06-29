@@ -59,3 +59,8 @@
 	height: 40px;
 	font-weight: 800;
 }
+
+.destination-desc {
+	line-height: 26px;
+	font-weight: 200;
+}
