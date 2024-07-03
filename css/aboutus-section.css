@@ -21,9 +21,11 @@
 	/* margin-top: 50px; */
 	height: 420px;
 	width: 700px;
+	/* width: 100%;
+	height: 100%; */
 }
 
-.testimonies {
+.aboutus-body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -56,4 +58,25 @@
 .testimony-desc {
 	line-height: 24px;
 	font-weight: 300;
+}
+
+.testimonies-display {
+	height: 420px;
+	width: 700px;
+	overflow: hidden;
+}
+
+.testimonies-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 420px;
+	/* width: calc(700px * 3); */
+	max-height: 100%;
+	transition: transform 1s ease-in-out;
+}
+
+.testimony {
+	width: 700px;
+	height: 420px;
 }

@@ -1,9 +1,17 @@
-const heroSection = document.getElementById("hero-section");
-const navbarElm = document.getElementById("navbar");
-const verticalScrollPosition = window.scrollY;
+const header = document.getElementById("header");
+const destinationSection = document.getElementById("destination-section");
+const sticky = destinationSection.offsetTop;
 
-if (verticalScrollPosition > heroSection) {
-	navbarElm.classList.add("white-nav");
-} else {
-	navbarElm.classList.remove("white-nav");
+function headerClassChangeScroll() {
+	if (window.scrollY >= sticky) {
+		header.classList.add("sticky");
+	} else if (window.scrollY < sticky) {
+		header.classList.remove("sticky");
+	} else {
+		header.classList.remove("sticky");
+	}
 }
+
+window.onscroll = () => {
+	headerClassChangeScroll();
+};

@@ -1,0 +1,25 @@
+.header {
+	top: 0;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	z-index: 3;
+	transition: all 0.3s ease-in-out;
+}
+
+.header.sticky {
+	background-color: #ffffff;
+	box-shadow: 7px 7px 14px #bfbfbf, -7px -7px 14px #dbdbdb;
+}
+
+.header.sticky a {
+	color: #000000;
+}
+
+.header.sticky .book-now {
+	border-color: #000000;
+}
