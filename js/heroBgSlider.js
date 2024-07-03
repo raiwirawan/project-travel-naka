@@ -1,6 +1,6 @@
 const overlayImages = document.querySelectorAll(".overlay-image");
 
-let i = 0;
+let i = 1;
 
 setInterval(() => {
 	i += 1;
